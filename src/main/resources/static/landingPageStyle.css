@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contain-colour{
+    background-color: #c6c6c6;
+}
+
+#landing-page-style{
+    width: 100vw;
+    height: 100vh;
+    left: -50%;
+}
+
+#page-1{
+    position: fixed;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    transition: 1s;
+    z-index: 0;
+}
+
+#page-2{
+    position: fixed;
+    right: -100%;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    transition: 1s;
+    z-index: 0;
+
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.colour-fill-in{
+    background-color: #22aa8b;
+    border: 2px solid #22aa8b;
+}
+
+.layer-1{
+    height: 30vh;
+    position: static;
+    z-index: 1;
+}
+
+.layer-2{
+    height: 40vh;
+    position: static;
+    z-index: 1;
+}
+
+.layer-3{
+    height: 15vh;
+    position: static;
+    z-index: 1;
+}
+
+.layer-4{
+    height: 15vh;
+    position: static;
+    z-index: 1;
+}
+
+.text-centre{
+    padding-top: 1vw;
+    padding-left: 5%;
+    color: #22aa8b;
+}
+
+.name-big{
+    font-size: 3.5vw;
+}
+
+.description-big{
+    font-size: 2.5vw;
+}
+
+.name-small{
+    font-size: 6vw;
+}
+
+.description-small{
+    font-size: 5vw;
+}
+
+#transition-text-big{
+    color: #2192aa;
+    margin-top: 12vh;
+    float: right;
+    padding-right: 120px;
+    font-size: 25px;
+    font-weight: bolder;
+    position: static;
+    z-index: 10;
+}
+
+#transition-circle-big{
+    position: absolute;
+    right: -65px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #2192aa;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 10;
+}
+
+#transition-text-small{
+    color: #2192aa;
+    margin-top: 10vh;
+    float: right;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+    position: static;
+    z-index: 10;
+}
+
+#transition-circle-small{
+    position: absolute;
+    right: -65px;
+    margin-top: 20px;
+    width: 130px;
+    height: 130px;
+    background-color: #2192aa;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 10;
+}
+
+.z-lower{
+    position: static;
+    z-index: 11;
+}

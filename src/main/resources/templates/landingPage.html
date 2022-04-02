@@ -1,0 +1,200 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{/landingPageStyle.css}" href="../static/landingPageStyle.css">
+
+    <title>Hello, world!</title>
+</head>
+
+
+<body>
+
+
+
+<div class="container-fluid p-0" id="contain-colour">
+    <main id="landing-page-style" >
+        <div class="container-fluid">
+
+            <section id="page-1" class="row">
+
+                <di class=" z-lower d-none d-md-block col-3 no-padding" >
+
+                    <div class="layer-1 colour-fill-in"></div>
+                    <div class="layer-2"></div>
+                    <div class="layer-3"></div>
+                    <div class="layer-4"></div>
+
+                </di>
+                <div class=" z-lower d-sm-block d-md-none col-3 no-padding">
+
+                    <div class="layer-1 colour-fill-in"></div>
+                    <div class="layer-2 colour-fill-in"></div>
+                    <div class="layer-3"></div>
+                    <div class="layer-4"></div>
+
+                </div>
+
+                <div class=" z-lower d-none d-md-block col-2 no-padding">
+
+                    <div class="layer-1 "></div>
+                    <div class="layer-2 colour-fill-in"></div>
+                    <div class="layer-3 colour-fill-in"></div>
+                    <div class="layer-4"></div>
+
+                </div>
+
+                <div class=" z-lower d-none d-md-block col-7 no-padding">
+
+                    <div class="layer-1 ">
+                        <div class="text-centre">
+                            <h2 class="name-big">Tobias Hammeken Arboe</h2>
+                            <h3 class="description-big">Uddannet Webudvikler - 3D College Grenaa</h3>
+                            <h3 class="description-big">Studere Datamatiker - 2 semester - KEA</h3>
+                        </div>
+                    </div>
+                    <div class="layer-2">
+                        <p id="transition-text-big">
+                            Se mere:
+                        </p>
+                        <div id="transition-circle-big" onclick="changeSide()">
+                        </div>
+                    </div>
+                    <div class="layer-3 colour-fill-in"></div>
+                    <div class="layer-4 colour-fill-in"></div>
+
+                </div>
+
+                <div class=" z-lower d-sm-block d-md-none col-9 no-padding">
+
+                    <div class="layer-1 ">
+                        <div class="text-centre">
+                            <h3 class="name-small">Tobias Hammeken Arboe</h3>
+                            <h4 class="description-small">Uddannet Webudvikler</h4>
+                            <h4 class="description-small">Datamatiker-studerende</h4>
+                        </div>
+                    </div>
+                    <div class="layer-2">
+
+                        <p id="transition-text-small">
+                            Se mere:
+                        </p>
+                        <div id="transition-circle-small" onclick="changeSide()">
+
+                        </div>
+
+                    </div>
+                    <div class="layer-3 colour-fill-in"></div>
+                    <div class="layer-4 colour-fill-in"></div>
+
+                </div>
+
+            </section>
+            <section id="page-2" class="row">
+
+                <div class=" z-lower d-none d-md-block col-3 no-padding ">
+
+                    <div class="layer-1 colour-fill-in"></div>
+                    <div class="layer-2"></div>
+                    <div class="layer-3"></div>
+                    <div class="layer-4"></div>
+
+                </div>
+                <div class=" z-lower d-sm-block d-md-none col-3 no-padding ">
+
+                    <div class="layer-1 colour-fill-in"></div>
+                    <div class="layer-2 colour-fill-in"></div>
+                    <div class="layer-3"></div>
+                    <div class="layer-4"></div>
+
+                </div>
+
+                <div class=" z-lower d-none d-md-block col-2 no-padding ">
+
+                    <div class="layer-1 "></div>
+                    <div class="layer-2 colour-fill-in"></div>
+                    <div class="layer-3 colour-fill-in"></div>
+                    <div class="layer-4"></div>
+
+                </div>
+
+                <div class=" z-lower d-none d-md-block col-7 no-padding " >
+
+                    <div class="layer-1 ">
+                        <div class="text-centre">
+                            <h2 class="name-big">Tobias Hammeken Arboe</h2>
+                            <h3 class="description-big">Uddannet Webudvikler - 3D College Grenaa</h3>
+                            <h3 class="description-big">Studere Datamatiker - 2 semester - KEA</h3>
+                        </div>
+                    </div>
+                    <div class="layer-2">
+                        <p id="transition-text-big">
+                            Se mere:
+                        </p>
+                        <div id="transition-circle-big" onclick="changeSide()" >
+                        </div>
+                    </div>
+                    <div class="layer-3 colour-fill-in"></div>
+                    <div class="layer-4 colour-fill-in"></div>
+
+                </div>
+
+                <div class=" z-lower d-sm-block d-md-none col-9 no-padding ">
+
+                    <div class="layer-1 ">
+                        <div class="text-centre">
+                            <h3 class="name-small">Tobias Hammeken Arboe</h3>
+                            <h4 class="description-small">Uddannet Webudvikler</h4>
+                            <h4 class="description-small">Datamatiker-studerende</h4>
+                        </div>
+                    </div>
+                    <div class="layer-2">
+
+                        <p id="transition-text-small">
+                            Se mere:
+                        </p>
+                        <div id="transition-circle-small" onclick="changeSide()">
+
+                        </div>
+
+                    </div>
+                    <div class="layer-3 colour-fill-in"></div>
+                    <div class="layer-4 colour-fill-in"></div>
+
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+</div>
+
+<script>
+
+var sideController = 1;
+
+function changeSide(){
+    if(sideController == 1){
+        document.getElementById("page-1").style.left = "-100%"
+        document.getElementById("page-2").style.right = "0"
+        sideController = 2
+    }
+    else if (sideController == 2){
+        document.getElementById("page-1").style.left = "0"
+        document.getElementById("page-2").style.right = "-100%"
+        sideController = 1;
+    }
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+</body>
+</html>
